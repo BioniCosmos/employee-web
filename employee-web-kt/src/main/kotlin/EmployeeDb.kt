@@ -3,9 +3,7 @@ package com.moecm
 class EmployeeDb(private var employees: List<Employee> = listOf()) {
     fun init() {
         this.employees = listOf(
-            Employee(
-                "xk32c9j8", "Frank", "Male", 40, 4431.0, 295.0
-            ),
+            Employee("xk32c9j8", "Frank", "Male", 40, 4431.0, 295.0),
             Employee("r3s9p1v5", "Emma", "Female", 45, 3937.0, 722.0),
             Employee("s5n9v8h3", "Jack", "Male", 29, 6191.0, 79.0),
             Employee("y8v5s1r3", "Henry", "Male", 52, 4837.0, 313.0),

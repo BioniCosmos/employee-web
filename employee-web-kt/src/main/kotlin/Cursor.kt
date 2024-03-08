@@ -1,9 +1,7 @@
 package com.moecm
 
 @Suppress("MemberVisibilityCanBePrivate")
-class Cursor(
-    data: List<Employee>, cursor: String?, limit: Int
-) {
+class Cursor(data: List<Employee>, cursor: String?, limit: Int) {
     val data: List<Employee>
     val nextCursor: String?
 
